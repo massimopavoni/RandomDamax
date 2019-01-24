@@ -208,7 +208,7 @@ namespace Libri_Massimo_Pavoni
             switch (fileType)
             {
                 case FileType.JSON:
-                    if (!DataManager.WriteJSON(DataManager.Books, Properties.Settings.Default.JSONFilePath, out string jsonOutput))
+                    if (!DataManager.WriteJSON(Properties.Settings.Default.JSONFilePath, DataManager.Books, out string jsonOutput))
                         MessageBox.Show(
                             "Could not save books' information to JSON file.\n\n" + jsonOutput,
                             "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
@@ -217,7 +217,7 @@ namespace Libri_Massimo_Pavoni
                             MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
                     break;
                 case FileType.XML:
-                    if (!DataManager.WriteXML(DataManager.Books, Properties.Settings.Default.XMLFilePath, out string xmlOutput))
+                    if (!DataManager.WriteXML(Properties.Settings.Default.XMLFilePath, DataManager.Books, out string xmlOutput))
                         MessageBox.Show(
                             "Could not save books' information to XML file.\n\n" + xmlOutput,
                             "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);

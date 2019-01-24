@@ -33,11 +33,11 @@ namespace Libri_Massimo_Pavoni
         /// Reads the contents of an object and serializes them to a specified JSON file.
         /// </summary>
         /// <typeparam name="T">Object type.</typeparam>
-        /// <param name="objectSource">Input object.</param>
         /// <param name="path">Output JSON file path.</param>
+        /// <param name="objectSource">Input object.</param>
         /// <param name="output">Outcome message.</param>
         /// <returns>True if the contents of the object were successfully saved to the file, otherwise false.</returns>
-        internal static bool WriteJSON<T>(T objectSource, string path, out string output)
+        internal static bool WriteJSON<T>(string path, T objectSource, out string output)
         {
             try
             {
@@ -56,11 +56,11 @@ namespace Libri_Massimo_Pavoni
         /// Reads the contents of an object and serializes them to a specified XML file.
         /// </summary>
         /// <typeparam name="T">Object type.</typeparam>
-        /// <param name="objectSource">Input object.</param>
         /// <param name="path">Output XML file path.</param>
+        /// <param name="objectSource">Input object.</param>
         /// <param name="output">Outcome message.</param>
         /// <returns>True if the contents of the object were successfully saved to the file, otherwise false.</returns>
-        internal static bool WriteXML<T>(T objectSource, string path, out string output)
+        internal static bool WriteXML<T>(string path, T objectSource, out string output)
         {
             try
             {
