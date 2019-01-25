@@ -312,7 +312,7 @@ namespace Libri_Massimo_Pavoni
             {
                 authors = new List<Author>();
                 // skip last element (it is a newline character)
-                foreach (string author in txbAuthorsValue.Lines.Take(txbAuthorsValue.Lines.Length - 1))
+                foreach (string author in txbAuthorsValue.Lines.Take(txbAuthorsValue.Lines.Length != 1 ? txbAuthorsValue.Lines.Length - 1 : 1))
                 {
                     // extrapolate author properties
                     string[] authorArgs = author.Split(' ').Where(s => !String.IsNullOrWhiteSpace(s)).ToArray();
