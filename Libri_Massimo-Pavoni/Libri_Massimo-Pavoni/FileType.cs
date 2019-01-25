@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// Possible types of storing files.
 /// </summary>
-enum FileType
+public enum FileType
 {
     JSON,
     XML
