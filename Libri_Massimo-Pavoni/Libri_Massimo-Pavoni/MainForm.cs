@@ -267,7 +267,7 @@ namespace Libri_Massimo_Pavoni
                     }
                     break;
             }
-            DataManager.Books = tempBooksList;
+            DataManager.Books = tempBooksList == null ? new List<Book>() : tempBooksList;
             RefreshBooksList();
         }
 
