@@ -236,6 +236,7 @@ namespace The_Doomsday_Rule
                 }
                 int.TryParse(dd[0], out wd);
                 wd = (wd - mdd + cydd) % 7;
+                if (wd < 0) wd += 7;
                 do //conclusion and repeat question cycle
                 {
                     Console.Clear();
