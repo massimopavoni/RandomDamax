@@ -1,2 +1,2 @@
 # RandomDamax
-All my most important test projects from now on will be stored here.
+Archive of old test/school projects developer just for fun.
