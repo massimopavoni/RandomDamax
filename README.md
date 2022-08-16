@@ -1,2 +1,2 @@
 # RandomDamax
-Archive of old test/school projects developer just for fun.
+Archive of old test/school projects developed just for fun.
