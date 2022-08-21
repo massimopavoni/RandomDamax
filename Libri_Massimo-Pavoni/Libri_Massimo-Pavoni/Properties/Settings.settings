@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Libri_Massimo_Pavoni.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="XMLFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">XMLBooks.xml</Value>
+    </Setting>
+    <Setting Name="JSONFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">JSONBooks.json</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
