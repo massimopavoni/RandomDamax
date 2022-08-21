@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tris_Massimo-Pavoni", "Tris_Massimo-Pavoni\Tris_Massimo-Pavoni.csproj", "{6C8C2739-EDF0-4F63-89B9-AC32830519DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C8C2739-EDF0-4F63-89B9-AC32830519DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8C2739-EDF0-4F63-89B9-AC32830519DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8C2739-EDF0-4F63-89B9-AC32830519DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8C2739-EDF0-4F63-89B9-AC32830519DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
